@@ -1,15 +1,16 @@
 project:
   type: book
+  output-dir: docs
+
 
 book:
   title: "Disciplina Programação II - Prof Gustavo"
-  author: "Mário Diego Valente"
+  author: "Mário Diego Rocha Valente"
   date: "22/08/2024"
   chapters:
     - index.qmd
     - intro.qmd
-    - summary.qmd
-    - references.qmd
+
 
 bibliography: references.bib
 

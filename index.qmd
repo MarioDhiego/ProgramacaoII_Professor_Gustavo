@@ -1,6 +1,3 @@
 # Prefácio {.unnumbered}
 
-
-Será respondido uma lista de exercicio do Professor Gustavo, refrente a disciplina Proframação II.
-
-
+Será respondido uma lista de exercicio do Professor Gustavo, referente a disciplina Proframação II.
