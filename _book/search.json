@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Disciplina Programação II - Prof Gustavo",
+    "section": "",
+    "text": "Prefácio\nSerá respondido uma lista de exercicio do Professor Gustavo, refrente a disciplina Proframação II."
+  },
+  {
+    "objectID": "intro.html#questão-1",
+    "href": "intro.html#questão-1",
+    "title": "1  Exercício Avaliativo",
+    "section": "1.1 Questão 1",
+    "text": "1.1 Questão 1\n\n1.1.1 Conceito de Encapsulamento e Information Hiding\nEncapsulamento refere-se à prática de agrupar dados e métodos que operam sobre esses dados em uma única unidade, geralmente uma classe. Isso permite que a implementação interna de uma classe seja escondida do resto do código, expondo apenas uma interface pública para interação. Tendo como\nInformation Hiding: chamado de Ocultação de Informações é um princípio mais amplo que se refere à ideia de esconder os detalhes de implementação de uma classe ou módulo, expondo apenas o que é necessário para o uso adequado. Isso reduz a complexidade percebida e protege a integridade do sistema, permitindo que as mudanças na implementação interna não afetem o código que usa a classe\nA aplicação de encapsulamento e ocultação de informações em projetos de software é crucial para garantir a segurança, modularidade, manutenção e clareza do código. Esses conceitos ajudam a construir sistemas mais robustos, flexíveis e fáceis de entender e manter."
+  },
+  {
+    "objectID": "intro.html#questão-2",
+    "href": "intro.html#questão-2",
+    "title": "1  Exercício Avaliativo",
+    "section": "1.2 Questão 2",
+    "text": "1.2 Questão 2\n\n1.2.1 Visibilidade de Atributos e Métodos\nOs Modificadores controlam o acesso aos atributos e métodos de uma classe. Eles ajudam a definir como e onde os membros de uma classe podem ser acessados e modificados, proporcionando diferentes níveis de proteção e encapsulamento.\n\n1.2.1.1 public\nO modificador public torna o membro acessível de qualquer lugar do código, seja dentro da mesma classe, em outras classes no mesmo pacote, ou até mesmo em classes de outros pacotes.\n\n\n1.2.1.2 private\nO modificador private restringe o acesso ao membro para dentro da própria classe. Nenhuma outra classe pode acessar diretamente membros private.\n\n\n1.2.1.3 protected\nO modificador protected permite que o membro seja acessado por classes no mesmo pacote e por subclasses, mesmo que estejam em pacotes diferentes\n\n\n1.2.1.4 Default (sem modificador)\nQuando nenhum modificador de visibilidade é especificado, o acesso é “package-private” (ou padrão). Isso significa que o membro é acessível apenas dentro do mesmo pacote."
+  },
+  {
+    "objectID": "intro.html#questão-3",
+    "href": "intro.html#questão-3",
+    "title": "1  Exercício Avaliativo",
+    "section": "1.3 Questão 3",
+    "text": "1.3 Questão 3\n\n1.3.1 Separação de Responsabilidade"
+  },
+  {
+    "objectID": "intro.html#questão-4",
+    "href": "intro.html#questão-4",
+    "title": "1  Exercício Avaliativo",
+    "section": "1.4 Questão 4",
+    "text": "1.4 Questão 4\n\n1.4.1 Implementação Prática - Classe Livro"
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "2  Summary",
+    "section": "",
+    "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2"
+  }
+]
