@@ -2,9 +2,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Disciplina Programação II - Prof Gustavo",
+    "title": "Disciplina: Programação II",
     "section": "",
-    "text": "Prefácio\nSerá respondido uma lista de exercicio do Professor Gustavo, referente a disciplina Proframação II."
+    "text": "Lista de Exercício\nQuestão 1: Conceito de Encapsulamento e Information Hiding Explique o conceito de encapsulamento e como ele está relacionado ao princípio de Information Hiding. Por que é importante utilizar esses conceitos em projetos de software?\nQuestão 2: Visibilidade de Atributos e Métodos Em Java, existem diferentes modificadores de visibilidade para atributos e métodos. Quais são esses modificadores, e qual o propósito de cada um deles? Dê exemplos de situações em que cada um deles seria mais adequado.\nQuestão 3: Separação de Responsabilidades O princípio da separação de responsabilidades (Separation of Concerns) é essencial em Orientação a Objetos. Explique esse princípio e discuta como ele pode ser aplicado ao projetar classes e métodos em um sistema Java.\nQuestão 4: Implementação Prática - Classe “Livro” Implemente uma classe Livro em Java com os seguintes atributos: titulo (título do livro), autor (nome do autor), e numeroPaginas (número de páginas). Todos os atributos devem ser privados. A classe deve possuir construtores para inicializar os objetos e métodos para exibir as informações do livro (exibirDetalhes). Implemente também os métodos getters e setters necessários.\nQuestão 5: Extensão Prática - Classe “Biblioteca” Com base na classe Livro criada na questão anterior, implemente uma classe Biblioteca que seja capaz de gerenciar múltiplos livros. A classe Biblioteca deve possuir um atributo privado que armazene uma lista de livros. Implemente métodos para adicionar novos livros, buscar um livro pelo título e exibir todos os livros disponíveis na biblioteca. Considere o uso adequado de construtores, encapsulamento e visibilidade."
   },
   {
     "objectID": "intro.html#questão-1",
@@ -18,27 +18,27 @@
     "href": "intro.html#questão-2",
     "title": "1  Exercício Avaliativo",
     "section": "1.2 Questão 2",
-    "text": "1.2 Questão 2\n\n1.2.1 Visibilidade de Atributos e Métodos\nOs Modificadores controlam o acesso aos atributos e métodos de uma classe. Eles ajudam a definir como e onde os membros de uma classe podem ser acessados e modificados, proporcionando diferentes níveis de proteção e encapsulamento.\n\n1.2.1.1 public\nO modificador public torna o membro acessível de qualquer lugar do código, seja dentro da mesma classe, em outras classes no mesmo pacote, ou até mesmo em classes de outros pacotes.\n\n\n1.2.1.2 private\nO modificador private restringe o acesso ao membro para dentro da própria classe. Nenhuma outra classe pode acessar diretamente membros private.\n\n\n1.2.1.3 protected\nO modificador protected permite que o membro seja acessado por classes no mesmo pacote e por subclasses, mesmo que estejam em pacotes diferentes\n\n\n1.2.1.4 Default (sem modificador)\nQuando nenhum modificador de visibilidade é especificado, o acesso é “package-private” (ou padrão). Isso significa que o membro é acessível apenas dentro do mesmo pacote."
+    "text": "1.2 Questão 2\n\n1.2.1 Visibilidade de Atributos e Métodos\nOs Modificadores controlam o acesso aos atributos e métodos de uma classe. Eles ajudam a definir como e onde os membros de uma classe podem ser acessados e modificados, proporcionando diferentes níveis de proteção e encapsulamento.\n\npublic\n\nO modificador public torna o membro acessível de qualquer lugar do código, seja dentro da mesma classe, em outras classes no mesmo pacote, ou até mesmo em classes de outros pacotes.\n\nprivate\n\nO modificador private restringe o acesso ao membro para dentro da própria classe. Nenhuma outra classe pode acessar diretamente membros private.\n\nprotected\n\nO modificador protected permite que o membro seja acessado por classes no mesmo pacote e por subclasses, mesmo que estejam em pacotes diferentes\n\nDefault (sem modificador)\n\nQuando nenhum modificador de visibilidade é especificado, o acesso é “package-private” (ou padrão). Isso significa que o membro é acessível apenas dentro do mesmo pacote."
   },
   {
     "objectID": "intro.html#questão-3",
     "href": "intro.html#questão-3",
     "title": "1  Exercício Avaliativo",
     "section": "1.3 Questão 3",
-    "text": "1.3 Questão 3\n\n1.3.1 Separação de Responsabilidade"
+    "text": "1.3 Questão 3\n\n1.3.1 Separação de Responsabilidade\nO princípio da separação de responsabilidades (Separation of Concerns) é uma prática essencial em design de software, especialmente em paradigmas como a Orientação a Objetos (OO). Ele preconiza a divisão de um sistema em partes distintas, cada uma responsável por um aspecto específico do comportamento do sistema, de modo que essas partes sejam relativamente independentes. O objetivo é aumentar a modularidade, facilitando a manutenção, evolução e compreensão do código.\n\n1.3.1.1 Aplicação na Orientação a Objeto\nNa Orientação a Objetos em Java, o princípio da separação de responsabilidades é aplicado de várias formas, influenciando diretamente o design de classes, métodos e interfaces. Abaixo, discutimos algumas abordagens práticas:\n\nDesign de Classes e Métodos: Cada classe deve ter uma única responsabilidade. Se uma classe é responsável por mais de uma coisa, ela tende a se tornar complexa e difícil de manter. Por exemplo, uma classe “Carro” deve ser responsável apenas pelos atributos e comportamentos que caracterizam um carro, como modelo, marca, velocidade etc., enquanto outra classe, como “Motor”, seria responsável pelos detalhes do motor do carro.\nUso de Interfaces: Interfaces ajudam a separar preocupações ao definir contratos para diferentes tipos de comportamento. Por exemplo, se um objeto precisa realizar operações relacionadas a persistência de dados, ele poderia implementar uma interface Persistable. Outra interface, Serializable, pode ser aplicada para definir que objetos podem ser convertidos para um fluxo de dados. Essas interfaces mantêm as preocupações separadas e evitam sobrecarga de responsabilidade em uma única classe.\nPrincípio de Responsabilidade Única (SRP): Esse princípio, que é parte dos princípios SOLID, é uma forma direta de aplicar a separação de responsabilidades. Uma classe deve ter apenas um motivo para mudar, ou seja, ela deve ser responsável por apenas uma coisa. Por exemplo, em um sistema de pedidos, uma classe Pedido deveria se preocupar apenas com os detalhes de um pedido, enquanto uma classe GerenciadorDeEstoque seria responsável por ajustar a quantidade de itens em estoque. Isso evita que mudanças em uma parte do sistema tenham efeitos colaterais inesperados em outras partes.\nArquitetura em Camadas:\n\nEm um sistema maior, a separação de responsabilidades pode ser implementada por meio de uma arquitetura em camadas, onde diferentes camadas têm responsabilidades específicas. Por exemplo, a camada de apresentação (UI) é responsável por lidar com a interface do usuário, a camada de lógica de negócios lida com as regras do sistema, e a camada de persistência lida com o armazenamento de dados. Isso permite que cada camada seja desenvolvida e mantida de forma independente.\n\nInjeção de Dependências (Dependency Injection):\n\nO uso de injeção de dependências também é uma técnica útil para aplicar a separação de responsabilidades. Com ela, uma classe não é responsável por criar suas dependências. Em vez disso, essas dependências são fornecidas externamente (normalmente por um framework). Isso permite que as classes se concentrem em suas próprias responsabilidades, sem se preocupar com a gestão de instâncias de outros objetos."
   },
   {
     "objectID": "intro.html#questão-4",
     "href": "intro.html#questão-4",
     "title": "1  Exercício Avaliativo",
     "section": "1.4 Questão 4",
-    "text": "1.4 Questão 4\n\n1.4.1 Implementação Prática - Classe Livro"
+    "text": "1.4 Questão 4\n\n1.4.1 Implementação Prática - Classe Livro\n\n\n\n\n\n\n\nClasse Livro\nClasse main"
   },
   {
     "objectID": "intro.html#questão-5",
     "href": "intro.html#questão-5",
     "title": "1  Exercício Avaliativo",
     "section": "1.5 Questão 5",
-    "text": "1.5 Questão 5\n\n1.5.1 Extensão Prática - Classe Biblioteca"
+    "text": "1.5 Questão 5\n\n1.5.1 Extensão Prática - Classe Biblioteca\n\n\n\n\n\n\n\n\nClasse livro\nClasse biblioteca\nClasse main"
   }
 ]

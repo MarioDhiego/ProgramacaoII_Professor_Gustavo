@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.353">
+<meta name="generator" content="quarto-1.2.269">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Disciplina Programação II - Prof Gustavo - 1&nbsp; Exercício Avaliativo</title>
+<title>Disciplina: Programação II - 1&nbsp; Exercício Avaliativo</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -17,7 +17,7 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  margin: 0 0.8em 0.2em -1.6em;
   vertical-align: middle;
 }
 </style>
@@ -36,10 +36,12 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -59,6 +61,7 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
+<script async="" src="https://hypothes.is/embed.js"></script>
 
 
 </head>
@@ -67,16 +70,11 @@ ul.task-list li input[type="checkbox"] {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-  <nav class="quarto-secondary-nav">
-    <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-        <i class="bi bi-layout-text-sidebar-reverse"></i>
-      </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./intro.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Exercício Avaliativo</span></a></li></ol></nav>
-      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-      </a>
-      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
-        <i class="bi bi-search"></i>
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Exercício Avaliativo</span></h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
       </button>
     </div>
   </nav>
@@ -84,70 +82,101 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="./">Disciplina Programação II - Prof Gustavo</a> 
+      <a href="./"><strong>Disciplina: Programação II</strong></a> 
+        <div class="sidebar-tools-main tools-wide">
+    <a href="https://github.com/MarioDhiego" title="Source Code" class="sidebar-tool px-1"><i class="bi bi-github"></i></a>
+    <a href="" title="Download" id="sidebar-tool-dropdown-0" class="sidebar-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-download"></i></a>
+    <ul class="dropdown-menu" aria-labelledby="sidebar-tool-dropdown-0">
+        <li>
+          <a class="dropdown-item sidebar-tools-main-item" href="./--Disciplina--Programação-II--.pdf">
+            <i class="bi bi-bi-file-pdf pe-1"></i>
+          Download PDF
+          </a>
+        </li>
+        <li>
+          <a class="dropdown-item sidebar-tools-main-item" href="./--Disciplina--Programação-II--.docx">
+            <i class="bi bi-bi-file-word pe-1"></i>
+          Download Docx
+          </a>
+        </li>
+    </ul>
+    <a href="" title="Share" id="sidebar-tool-dropdown-1" class="sidebar-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-share"></i></a>
+    <ul class="dropdown-menu" aria-labelledby="sidebar-tool-dropdown-1">
+        <li>
+          <a class="dropdown-item sidebar-tools-main-item" href="https://twitter.com/intent/tweet?url=|url|">
+            <i class="bi bi-bi-twitter pe-1"></i>
+          Twitter
+          </a>
+        </li>
+        <li>
+          <a class="dropdown-item sidebar-tools-main-item" href="https://www.facebook.com/sharer/sharer.php?u=|url|">
+            <i class="bi bi-bi-facebook pe-1"></i>
+          Facebook
+          </a>
+        </li>
+    </ul>
+  <a href="" class="quarto-color-scheme-toggle sidebar-tool" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
     </div>
       </div>
-        <div class="mt-2 flex-shrink-0 align-items-center">
+      <div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
         <div id="quarto-search" class="" title="Search"></div>
         </div>
-        </div>
+      </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Prefácio</span></a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link">Lista de Exercício</a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./intro.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Exercício Avaliativo</span></span></a>
+  <a href="./intro.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Exercício Avaliativo</span></a>
   </div>
 </li>
     </ul>
     </div>
 </nav>
-<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Table of contents</h2>
+    <h2 id="toc-title">Índice</h2>
    
   <ul>
-  <li><a href="#questão-1" id="toc-questão-1" class="nav-link active" data-scroll-target="#questão-1"><span class="header-section-number">1.1</span> Questão 1</a>
+  <li><a href="#questão-1" id="toc-questão-1" class="nav-link active" data-scroll-target="#questão-1"><span class="toc-section-number">1.1</span>  Questão 1</a>
   <ul class="collapse">
-  <li><a href="#conceito-de-encapsulamento-e-information-hiding" id="toc-conceito-de-encapsulamento-e-information-hiding" class="nav-link" data-scroll-target="#conceito-de-encapsulamento-e-information-hiding"><span class="header-section-number">1.1.1</span> Conceito de Encapsulamento e Information Hiding</a></li>
+  <li><a href="#conceito-de-encapsulamento-e-information-hiding" id="toc-conceito-de-encapsulamento-e-information-hiding" class="nav-link" data-scroll-target="#conceito-de-encapsulamento-e-information-hiding"><span class="toc-section-number">1.1.1</span>  Conceito de Encapsulamento e Information Hiding</a></li>
   </ul></li>
-  <li><a href="#questão-2" id="toc-questão-2" class="nav-link" data-scroll-target="#questão-2"><span class="header-section-number">1.2</span> Questão 2</a>
+  <li><a href="#questão-2" id="toc-questão-2" class="nav-link" data-scroll-target="#questão-2"><span class="toc-section-number">1.2</span>  Questão 2</a>
   <ul class="collapse">
-  <li><a href="#visibilidade-de-atributos-e-métodos" id="toc-visibilidade-de-atributos-e-métodos" class="nav-link" data-scroll-target="#visibilidade-de-atributos-e-métodos"><span class="header-section-number">1.2.1</span> Visibilidade de Atributos e Métodos</a></li>
+  <li><a href="#visibilidade-de-atributos-e-métodos" id="toc-visibilidade-de-atributos-e-métodos" class="nav-link" data-scroll-target="#visibilidade-de-atributos-e-métodos"><span class="toc-section-number">1.2.1</span>  Visibilidade de Atributos e Métodos</a></li>
   </ul></li>
-  <li><a href="#questão-3" id="toc-questão-3" class="nav-link" data-scroll-target="#questão-3"><span class="header-section-number">1.3</span> Questão 3</a>
+  <li><a href="#questão-3" id="toc-questão-3" class="nav-link" data-scroll-target="#questão-3"><span class="toc-section-number">1.3</span>  Questão 3</a>
   <ul class="collapse">
-  <li><a href="#separação-de-responsabilidade" id="toc-separação-de-responsabilidade" class="nav-link" data-scroll-target="#separação-de-responsabilidade"><span class="header-section-number">1.3.1</span> Separação de Responsabilidade</a></li>
+  <li><a href="#separação-de-responsabilidade" id="toc-separação-de-responsabilidade" class="nav-link" data-scroll-target="#separação-de-responsabilidade"><span class="toc-section-number">1.3.1</span>  Separação de Responsabilidade</a></li>
   </ul></li>
-  <li><a href="#questão-4" id="toc-questão-4" class="nav-link" data-scroll-target="#questão-4"><span class="header-section-number">1.4</span> Questão 4</a>
+  <li><a href="#questão-4" id="toc-questão-4" class="nav-link" data-scroll-target="#questão-4"><span class="toc-section-number">1.4</span>  Questão 4</a>
   <ul class="collapse">
-  <li><a href="#implementação-prática---classe-livro" id="toc-implementação-prática---classe-livro" class="nav-link" data-scroll-target="#implementação-prática---classe-livro"><span class="header-section-number">1.4.1</span> Implementação Prática - Classe Livro</a></li>
+  <li><a href="#implementação-prática---classe-livro" id="toc-implementação-prática---classe-livro" class="nav-link" data-scroll-target="#implementação-prática---classe-livro"><span class="toc-section-number">1.4.1</span>  Implementação Prática - Classe Livro</a></li>
   </ul></li>
-  <li><a href="#questão-5" id="toc-questão-5" class="nav-link" data-scroll-target="#questão-5"><span class="header-section-number">1.5</span> Questão 5</a>
+  <li><a href="#questão-5" id="toc-questão-5" class="nav-link" data-scroll-target="#questão-5"><span class="toc-section-number">1.5</span>  Questão 5</a>
   <ul class="collapse">
-  <li><a href="#extensão-prática---classe-biblioteca" id="toc-extensão-prática---classe-biblioteca" class="nav-link" data-scroll-target="#extensão-prática---classe-biblioteca"><span class="header-section-number">1.5.1</span> Extensão Prática - Classe Biblioteca</a></li>
+  <li><a href="#extensão-prática---classe-biblioteca" id="toc-extensão-prática---classe-biblioteca" class="nav-link" data-scroll-target="#extensão-prática---classe-biblioteca"><span class="toc-section-number">1.5.1</span>  Extensão Prática - Classe Biblioteca</a></li>
   </ul></li>
   </ul>
-</nav>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/MarioDhiego/edit/main/intro.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/MarioDhiego/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Exercício Avaliativo</span></h1>
+<h1 class="title d-none d-lg-block"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Exercício Avaliativo</span></h1>
 </div>
 
 
@@ -162,6 +191,9 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
+<style>
+  body{text-align: justify}
+</style>
 <div class="progress">
 <div class="progress-bar" style="width: 100%;">
 
@@ -186,20 +218,21 @@ ul.task-list li input[type="checkbox"] {
 <section id="visibilidade-de-atributos-e-métodos" class="level3" data-number="1.2.1">
 <h3 data-number="1.2.1" class="anchored" data-anchor-id="visibilidade-de-atributos-e-métodos"><span class="header-section-number">1.2.1</span> Visibilidade de Atributos e Métodos</h3>
 <p>Os Modificadores controlam o acesso aos atributos e métodos de uma classe. Eles ajudam a definir como e onde os membros de uma classe podem ser acessados e modificados, proporcionando diferentes níveis de proteção e encapsulamento.</p>
-<section id="public" class="level4" data-number="1.2.1.1">
-<h4 data-number="1.2.1.1" class="anchored" data-anchor-id="public"><span class="header-section-number">1.2.1.1</span> public</h4>
+<ol type="1">
+<li>public</li>
+</ol>
 <p>O modificador public torna o membro acessível de qualquer lugar do código, seja dentro da mesma classe, em outras classes no mesmo pacote, ou até mesmo em classes de outros pacotes.</p>
-</section>
-<section id="private" class="level4" data-number="1.2.1.2">
-<h4 data-number="1.2.1.2" class="anchored" data-anchor-id="private"><span class="header-section-number">1.2.1.2</span> private</h4>
+<ol start="2" type="1">
+<li>private</li>
+</ol>
 <p>O modificador private restringe o acesso ao membro para dentro da própria classe. Nenhuma outra classe pode acessar diretamente membros private.</p>
-</section>
-<section id="protected" class="level4" data-number="1.2.1.3">
-<h4 data-number="1.2.1.3" class="anchored" data-anchor-id="protected"><span class="header-section-number">1.2.1.3</span> protected</h4>
+<ol start="3" type="1">
+<li>protected</li>
+</ol>
 <p>O modificador protected permite que o membro seja acessado por classes no mesmo pacote e por subclasses, mesmo que estejam em pacotes diferentes</p>
-</section>
-<section id="default-sem-modificador" class="level4" data-number="1.2.1.4">
-<h4 data-number="1.2.1.4" class="anchored" data-anchor-id="default-sem-modificador"><span class="header-section-number">1.2.1.4</span> Default (sem modificador)</h4>
+<ol start="4" type="1">
+<li>Default (sem modificador)</li>
+</ol>
 <p>Quando nenhum modificador de visibilidade é especificado, o acesso é “package-private” (ou padrão). Isso significa que o membro é acessível apenas dentro do mesmo pacote.</p>
 <div class="progress">
 <div class="progress-bar" style="width: 100%;">
@@ -208,11 +241,25 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </section>
 </section>
-</section>
 <section id="questão-3" class="level2" data-number="1.3">
 <h2 data-number="1.3" class="anchored" data-anchor-id="questão-3"><span class="header-section-number">1.3</span> Questão 3</h2>
 <section id="separação-de-responsabilidade" class="level3" data-number="1.3.1">
 <h3 data-number="1.3.1" class="anchored" data-anchor-id="separação-de-responsabilidade"><span class="header-section-number">1.3.1</span> Separação de Responsabilidade</h3>
+<p>O princípio da separação de responsabilidades (<strong>Separation of Concerns</strong>) é uma prática essencial em design de software, especialmente em paradigmas como a Orientação a Objetos (OO). Ele preconiza a divisão de um sistema em partes distintas, cada uma responsável por um aspecto específico do comportamento do sistema, de modo que essas partes sejam relativamente independentes. O objetivo é aumentar a modularidade, facilitando a manutenção, evolução e compreensão do código.</p>
+<section id="aplicação-na-orientação-a-objeto" class="level4" data-number="1.3.1.1">
+<h4 data-number="1.3.1.1" class="anchored" data-anchor-id="aplicação-na-orientação-a-objeto"><span class="header-section-number">1.3.1.1</span> Aplicação na Orientação a Objeto</h4>
+<p>Na Orientação a Objetos em Java, o princípio da separação de responsabilidades é aplicado de várias formas, influenciando diretamente o design de classes, métodos e interfaces. Abaixo, discutimos algumas abordagens práticas:</p>
+<ol type="1">
+<li><p>Design de Classes e Métodos: Cada classe deve ter uma única responsabilidade. Se uma classe é responsável por mais de uma coisa, ela tende a se tornar complexa e difícil de manter. Por exemplo, uma classe “Carro” deve ser responsável apenas pelos atributos e comportamentos que caracterizam um carro, como modelo, marca, velocidade etc., enquanto outra classe, como “Motor”, seria responsável pelos detalhes do motor do carro.</p></li>
+<li><p>Uso de Interfaces: Interfaces ajudam a separar preocupações ao definir contratos para diferentes tipos de comportamento. Por exemplo, se um objeto precisa realizar operações relacionadas a persistência de dados, ele poderia implementar uma interface Persistable. Outra interface, Serializable, pode ser aplicada para definir que objetos podem ser convertidos para um fluxo de dados. Essas interfaces mantêm as preocupações separadas e evitam sobrecarga de responsabilidade em uma única classe.</p></li>
+<li><p>Princípio de Responsabilidade Única (SRP): Esse princípio, que é parte dos princípios SOLID, é uma forma direta de aplicar a separação de responsabilidades. Uma classe deve ter apenas um motivo para mudar, ou seja, ela deve ser responsável por apenas uma coisa. Por exemplo, em um sistema de pedidos, uma classe Pedido deveria se preocupar apenas com os detalhes de um pedido, enquanto uma classe GerenciadorDeEstoque seria responsável por ajustar a quantidade de itens em estoque. Isso evita que mudanças em uma parte do sistema tenham efeitos colaterais inesperados em outras partes.</p></li>
+<li><p>Arquitetura em Camadas:</p></li>
+</ol>
+<p>Em um sistema maior, a separação de responsabilidades pode ser implementada por meio de uma arquitetura em camadas, onde diferentes camadas têm responsabilidades específicas. Por exemplo, a camada de apresentação (UI) é responsável por lidar com a interface do usuário, a camada de lógica de negócios lida com as regras do sistema, e a camada de persistência lida com o armazenamento de dados. Isso permite que cada camada seja desenvolvida e mantida de forma independente.</p>
+<ol start="5" type="1">
+<li>Injeção de Dependências (Dependency Injection):</li>
+</ol>
+<p>O uso de injeção de dependências também é uma técnica útil para aplicar a separação de responsabilidades. Com ela, uma classe não é responsável por criar suas dependências. Em vez disso, essas dependências são fornecidas externamente (normalmente por um framework). Isso permite que as classes se concentrem em suas próprias responsabilidades, sem se preocupar com a gestão de instâncias de outros objetos.</p>
 <div class="progress">
 <div class="progress-bar" style="width: 100%;">
 
@@ -220,15 +267,29 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </section>
 </section>
+</section>
 <section id="questão-4" class="level2" data-number="1.4">
 <h2 data-number="1.4" class="anchored" data-anchor-id="questão-4"><span class="header-section-number">1.4</span> Questão 4</h2>
 <section id="implementação-prática---classe-livro" class="level3" data-number="1.4.1">
 <h3 data-number="1.4.1" class="anchored" data-anchor-id="implementação-prática---classe-livro"><span class="header-section-number">1.4.1</span> Implementação Prática - Classe Livro</h3>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="quest4.jpg" class="img-fluid figure-img"></p>
-</figure>
-</div>
+<table class="table">
+<colgroup>
+<col style="width: 44%">
+<col style="width: 55%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Classe Livro</th>
+<th style="text-align: center;">Classe main</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;"><img src="images/classe_livro2-01.jpg" class="img-fluid"></td>
+<td style="text-align: center;"><img src="images/classe_main.jpg" class="img-fluid" width="489"></td>
+</tr>
+</tbody>
+</table>
 <div class="progress">
 <div class="progress-bar" style="width: 100%;">
 
@@ -240,6 +301,27 @@ ul.task-list li input[type="checkbox"] {
 <h2 data-number="1.5" class="anchored" data-anchor-id="questão-5"><span class="header-section-number">1.5</span> Questão 5</h2>
 <section id="extensão-prática---classe-biblioteca" class="level3" data-number="1.5.1">
 <h3 data-number="1.5.1" class="anchored" data-anchor-id="extensão-prática---classe-biblioteca"><span class="header-section-number">1.5.1</span> Extensão Prática - Classe Biblioteca</h3>
+<table class="table">
+<colgroup>
+<col style="width: 34%">
+<col style="width: 37%">
+<col style="width: 28%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Classe livro</th>
+<th style="text-align: center;">Classe biblioteca</th>
+<th style="text-align: center;">Classe main</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;"><img src="images/classe_livro-01.jpg" class="img-fluid" width="295"></td>
+<td style="text-align: center;"><img src="images/classe_biblioteca-01.jpg" class="img-fluid" width="320"></td>
+<td style="text-align: center;"><img src="images/main-02.jpg" class="img-fluid" width="272"></td>
+</tr>
+</tbody>
+</table>
 <div class="progress">
 <div class="progress-bar" style="width: 100%;">
 
@@ -271,6 +353,121 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  let localAlternateSentinel = 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
   const icon = "";
   const anchorJS = new window.AnchorJS();
   anchorJS.options = {
@@ -278,23 +475,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
-  const isCodeAnnotation = (el) => {
-    for (const clz of el.classList) {
-      if (clz.startsWith('code-annotation-')) {                     
-        return true;
-      }
-    }
-    return false;
-  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
+    target: function(trigger) {
+      return trigger.previousElementSibling;
     }
   });
   clipboard.on('success', function(e) {
@@ -359,92 +542,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
-      let selectedAnnoteEl;
-      const selectorForAnnotation = ( cell, annotation) => {
-        let cellAttr = 'data-code-cell="' + cell + '"';
-        let lineAttr = 'data-code-annotation="' +  annotation + '"';
-        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
-        return selector;
-      }
-      const selectCodeLines = (annoteEl) => {
-        const doc = window.document;
-        const targetCell = annoteEl.getAttribute("data-target-cell");
-        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
-        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
-        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
-        const lineIds = lines.map((line) => {
-          return targetCell + "-" + line;
-        })
-        let top = null;
-        let height = null;
-        let parent = null;
-        if (lineIds.length > 0) {
-            //compute the position of the single el (top and bottom and make a div)
-            const el = window.document.getElementById(lineIds[0]);
-            top = el.offsetTop;
-            height = el.offsetHeight;
-            parent = el.parentElement.parentElement;
-          if (lineIds.length > 1) {
-            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
-            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
-            height = bottom - top;
-          }
-          if (top !== null && height !== null && parent !== null) {
-            // cook up a div (if necessary) and position it 
-            let div = window.document.getElementById("code-annotation-line-highlight");
-            if (div === null) {
-              div = window.document.createElement("div");
-              div.setAttribute("id", "code-annotation-line-highlight");
-              div.style.position = 'absolute';
-              parent.appendChild(div);
-            }
-            div.style.top = top - 2 + "px";
-            div.style.height = height + 4 + "px";
-            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
-            if (gutterDiv === null) {
-              gutterDiv = window.document.createElement("div");
-              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
-              gutterDiv.style.position = 'absolute';
-              const codeCell = window.document.getElementById(targetCell);
-              const gutter = codeCell.querySelector('.code-annotation-gutter');
-              gutter.appendChild(gutterDiv);
-            }
-            gutterDiv.style.top = top - 2 + "px";
-            gutterDiv.style.height = height + 4 + "px";
-          }
-          selectedAnnoteEl = annoteEl;
-        }
-      };
-      const unselectCodeLines = () => {
-        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
-        elementsIds.forEach((elId) => {
-          const div = window.document.getElementById(elId);
-          if (div) {
-            div.remove();
-          }
-        });
-        selectedAnnoteEl = undefined;
-      };
-      // Attach click handler to the DT
-      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
-      for (const annoteDlNode of annoteDls) {
-        annoteDlNode.addEventListener('click', (event) => {
-          const clickedEl = event.target;
-          if (clickedEl !== selectedAnnoteEl) {
-            unselectCodeLines();
-            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
-            if (activeEl) {
-              activeEl.classList.remove('code-annotation-active');
-            }
-            selectCodeLines(clickedEl);
-            clickedEl.classList.add('code-annotation-active');
-          } else {
-            // Unselect the line
-            unselectCodeLines();
-            clickedEl.classList.remove('code-annotation-active');
-          }
-        });
-      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {
@@ -487,13 +584,19 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
       <a href="./index.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Prefácio</span>
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Lista de Exercício</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
   </div>
 </nav>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">Was Written by (VALENTE - 2024).</div>   
+    <div class="nav-footer-right">This book was built with <a href="https://quarto.org/">Quarto</a>.</div>
+  </div>
+</footer>
 
 
 
